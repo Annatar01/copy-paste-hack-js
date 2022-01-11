@@ -1,3 +1,4 @@
+# This fork bypasses [this **Chrome Extension**](https://chrome.google.com/webstore/detail/copy-paste-hack-blocker/fkfnmcncicigjajpfdgpkjohbondnkld).
 # copy-paste-hack-js
 During their job, developers often copy and paste code from the Internet from sources like Stackowerflow and other websites.  
 I have found an **exploit**, with just some lines of JavaScript code, that can alter the copy-paste feature of any browser and make you paste (and execute) a different kind of code.
@@ -22,5 +23,4 @@ document.getElementById('copyme').addEventListener(
 ## How to prevent it from happening
 - Always copy code from trusted sources and websites
 - Always check the code and if you can't understand it, don't run it
-- Install [this **Chrome Extension**](https://chrome.google.com/webstore/detail/copy-paste-hack-blocker/fkfnmcncicigjajpfdgpkjohbondnkld) to protect you from this hack, the extension will display an alert if the contents of your clipboard are different from what you had sleceted to copy.
 - Some modern terminals like Windows Terminal display a warning message whenever you are trying to paste a multiline code (like the one in this exploit) and it will show up the code on the screen before getting executed. Just make sure to not ignore those helpful warnings. 
