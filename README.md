@@ -24,3 +24,5 @@ document.getElementById('copyme').addEventListener(
 - Always copy code from trusted sources and websites
 - Always check the code and if you can't understand it, don't run it
 - Some modern terminals like Windows Terminal display a warning message whenever you are trying to paste a multiline code (like the one in this exploit) and it will show up the code on the screen before getting executed. Just make sure to not ignore those helpful warnings. 
+### Firefox
+- See this answer about disabling the feature in Firefox: https://superuser.com/questions/1595994/dont-let-websites-overwrite-clipboard-in-firefox-without-explicitly-giving-perm
